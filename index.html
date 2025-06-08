@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+    
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <h1>Welcome to Travel Destinations</h1>
+            <p>Discover amazing places around the world</p>
+        </section>
+
+        <section class="featured-destinations">
+            <h2>Featured Destinations</h2>
+            <div class="grid-container">
+                <div class="destination-card">
+                    <img src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg" alt="Eiffel Tower in Paris">
+                    <h3>Paris, France</h3>
+                    <p>The city of love and lights</p>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg" alt="Tokyo Tower in Tokyo">
+                    <h3>Tokyo, Japan</h3>
+                    <p>Where tradition meets future</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <button onclick="document.getElementById('main-content').scrollIntoView({behavior: 'smooth'});" class="back-to-main">Back to Main Content</button>
+        <p>&copy; 2024 Travel Destinations. All rights reserved.</p>
+    </footer>
+</body>
+</html> 

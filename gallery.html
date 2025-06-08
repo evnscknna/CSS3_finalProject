@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations - Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+    
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Travel Gallery</h1>
+        
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/163864/santorini-oia-greece-travel-163864.jpeg" alt="Santorini, Greece">
+                <p>Santorini, Greece</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/3706960/pexels-photo-3706960.jpeg" alt="Machu Picchu, Peru">
+                <p>Machu Picchu, Peru</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/1144265/pexels-photo-1144265.jpeg" alt="Venice canals">
+                <p>Venice, Italy</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/3787839/pexels-photo-3787839.jpeg" alt="Dubai, UAE">
+                <p>Dubai, UAE</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg" alt="Kyoto, Japan">
+                <p>Kyoto, Japan</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/71241/pexels-photo-71241.jpeg" alt="Pyramids of Giza, Egypt">
+                <p>Pyramids of Giza, Egypt</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <button onclick="document.getElementById('main-content').scrollIntoView({behavior: 'smooth'});" class="back-to-main">Back to Main Content</button>
+        <p>&copy; 2024 Travel Destinations. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
